@@ -19,10 +19,12 @@ class Example extends React.PureComponent {
   renderStepOne = () => {
     return (
       <div className="step-container">
-        <div className="step-title">Step 1: Your details</div>
+        <div className="step-title">
+          <p className="title-text"> Step 1: Your details</p>
+          </div>
         <div id="first-step" className="step-form">
           <Formik
-            initialValues={{ "first-name": "", "last-name": "", email: "" }}
+            initialValues={{ "first-name": "", "Surname": "", email: "" }}
             validate={values => {
               let errors = {};
 
@@ -60,7 +62,7 @@ class Example extends React.PureComponent {
                   />
                 </div>
                 <div className="form-field">
-                  <label>Last name</label>
+                  <label>Surname</label>
                   <Field id="last-name" type="text" name="last-name" required />
                 </div>
                 <div className="form-field">
@@ -98,7 +100,9 @@ class Example extends React.PureComponent {
   renderStepTwo = () => {
     return (
       <div className="step-container">
-        <div className="step-title">Step 2: More comments</div>
+        <div className="step-title">
+          <p className="title-text"> Step 2: More comments</p>
+          </div>
         <div id="second-step" className="step-form">
           <Formik
             initialValues={{ gender: "male" }}
@@ -186,7 +190,9 @@ class Example extends React.PureComponent {
   renderStepThree = () => {
     return (
       <div className="step-container">
-        <div className="step-title">Step 3: Final comments</div>
+        <div className="step-title">
+          <p className="title-text"> Step 3: Final comments</p>
+        </div>
         <div id="third-step" className="step-form">
           <Formik
             initialValues={{ comments: "" }}

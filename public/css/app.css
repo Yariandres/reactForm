@@ -1,5 +1,8 @@
+body {
+  background-color: #d2e1ff;
+}
+
 .app {
-  background-color: #fff;
   margin: auto;
   margin-top: 6rem;
   width: 50vw;
@@ -11,7 +14,7 @@
 .app .step-container {
   background-color: #d3d3d3;
   border-radius: 6px;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 .app .step-container .step-title {
@@ -22,6 +25,18 @@
   height: 3rem;
   -webkit-box-pack: center;
           justify-content: center;
+  position: relative;
+}
+
+.app .step-container .step-title .title-text {
+  line-height: 1.125;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(104, 104, 104, 0.004);
+  position: absolute;
+  margin-left: 10px;
+  left: 0px;
+  top: 0px;
+  z-index: 71;
 }
 
 .app .step-container .step-form {
@@ -81,19 +96,20 @@
 }
 
 .app .step-container .step-form form .bottom-section button {
-  border-radius: 6px;
-  margin-left: 1rem;
+  border-radius: 10px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#1a237e), to(#6200ea));
   background-image: linear-gradient(#1a237e, #6200ea);
   color: #fff;
-  width: 5rem;
+  padding: 8px 44px;
   text-align: center;
-  height: 1.5rem;
+  border: none;
 }
 
 .app .step-container .step-form form input {
-  border-radius: 6px;
-  height: 1.5rem;
+  border-radius: 10px;
+  box-shadow: inset 0px 2px 9px 0px rgba(0, 0, 0, 0.48);
+  height: 2rem;
+  border: none;
 }
 
 .app .step-container .step-form form select {

@@ -1935,7 +1935,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".app {\n  background-color: #fff;\n  margin: auto;\n  margin-top: 6rem;\n  width: 50vw;\n  border: 3px solid #fff;\n  border-radius: 6px;\n  min-width: 415px;\n}\n.app .step-container {\n  background-color: #d3d3d3;\n  border-radius: 6px;\n  margin-bottom: 3px;\n}\n.app .step-container .step-title {\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdd835), to(#ff8f00));\n  background-image: linear-gradient(#fdd835, #ff8f00);\n  border-radius: 6px;\n  color: #fff;\n  height: 3rem;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n.app .step-container .step-form {\n  overflow: hidden;\n  height: 0;\n  -webkit-transition: all 0.5s ease-in-out;\n  transition: all 0.5s ease-in-out;\n}\n.app .step-container .step-form form {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  flex-wrap: wrap;\n  height: inherit;\n}\n.app .step-container .step-form form .form-field {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  margin: 0.5rem;\n}\n.app .step-container .step-form form .form-field .birth-field {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n}\n.app .step-container .step-form form .form-field .birth-field input {\n  width: 2rem;\n  margin-right: 0.5rem;\n}\n.app .step-container .step-form form .form-field label {\n  font-weight: bold;\n}\n.app .step-container .step-form form .bottom-section {\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  -webkit-box-pack: end;\n          justify-content: flex-end;\n  margin: 0.5rem;\n  margin-top: auto;\n}\n.app .step-container .step-form form .bottom-section button {\n  border-radius: 6px;\n  margin-left: 1rem;\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a237e), to(#6200ea));\n  background-image: linear-gradient(#1a237e, #6200ea);\n  color: #fff;\n  width: 5rem;\n  text-align: center;\n  height: 1.5rem;\n}\n.app .step-container .step-form form input {\n  border-radius: 6px;\n  height: 1.5rem;\n}\n.app .step-container .step-form form select {\n  border-radius: 6px;\n  height: 1.5rem;\n}\n.app .step-container .step-form:target {\n  height: 10rem;\n}\n.app .step-form:target {\n  height: 10rem;\n}", ""]);
+exports.push([module.i, "body {\n  background-color: #d2e1ff;\n}\n\n.app {\n  margin: auto;\n  margin-top: 6rem;\n  width: 50vw;\n  border: 3px solid #fff;\n  border-radius: 6px;\n  min-width: 415px;\n}\n.app .step-container {\n  background-color: #d3d3d3;\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n.app .step-container .step-title {\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdd835), to(#ff8f00));\n  background-image: linear-gradient(#fdd835, #ff8f00);\n  border-radius: 6px;\n  color: #fff;\n  height: 3rem;\n  -webkit-box-pack: center;\n          justify-content: center;\n  position: relative;\n}\n.app .step-container .step-title .title-text {\n  line-height: 1.125;\n  text-align: left;\n  text-shadow: 0px 1px 0px rgba(104, 104, 104, 0.004);\n  position: absolute;\n  margin-left: 10px;\n  left: 0px;\n  top: 0px;\n  z-index: 71;\n}\n.app .step-container .step-form {\n  overflow: hidden;\n  height: 0;\n  -webkit-transition: all 0.5s ease-in-out;\n  transition: all 0.5s ease-in-out;\n}\n.app .step-container .step-form form {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  flex-wrap: wrap;\n  height: inherit;\n}\n.app .step-container .step-form form .form-field {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  margin: 0.5rem;\n}\n.app .step-container .step-form form .form-field .birth-field {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n}\n.app .step-container .step-form form .form-field .birth-field input {\n  width: 2rem;\n  margin-right: 0.5rem;\n}\n.app .step-container .step-form form .form-field label {\n  font-weight: bold;\n}\n.app .step-container .step-form form .bottom-section {\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  -webkit-box-pack: end;\n          justify-content: flex-end;\n  margin: 0.5rem;\n  margin-top: auto;\n}\n.app .step-container .step-form form .bottom-section button {\n  border-radius: 10px;\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a237e), to(#6200ea));\n  background-image: linear-gradient(#1a237e, #6200ea);\n  color: #fff;\n  padding: 8px 44px;\n  text-align: center;\n  border: none;\n}\n.app .step-container .step-form form input {\n  border-radius: 10px;\n  box-shadow: inset 0px 2px 9px 0px rgba(0, 0, 0, 0.48);\n  height: 2rem;\n  border: none;\n}\n.app .step-container .step-form form select {\n  border-radius: 6px;\n  height: 1.5rem;\n}\n.app .step-container .step-form:target {\n  height: 10rem;\n}\n.app .step-form:target {\n  height: 10rem;\n}", ""]);
 
 // exports
 
@@ -60419,13 +60419,15 @@ function (_React$PureComponent) {
         className: "step-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "step-title"
-      }, "Step 1: Your details"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "title-text"
+      }, " Step 1: Your details")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "first-step",
         className: "step-form"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(formik__WEBPACK_IMPORTED_MODULE_1__["Formik"], {
         initialValues: {
           "first-name": "",
-          "last-name": "",
+          "Surname": "",
           email: ""
         },
         validate: function validate(values) {
@@ -60460,7 +60462,7 @@ function (_React$PureComponent) {
           required: true
         })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "form-field"
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Last name"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(formik__WEBPACK_IMPORTED_MODULE_1__["Field"], {
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Surname"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(formik__WEBPACK_IMPORTED_MODULE_1__["Field"], {
           id: "last-name",
           type: "text",
           name: "last-name",
@@ -60498,7 +60500,9 @@ function (_React$PureComponent) {
         className: "step-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "step-title"
-      }, "Step 2: More comments"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "title-text"
+      }, " Step 2: More comments")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "second-step",
         className: "step-form"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(formik__WEBPACK_IMPORTED_MODULE_1__["Formik"], {
@@ -60582,7 +60586,9 @@ function (_React$PureComponent) {
         className: "step-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "step-title"
-      }, "Step 3: Final comments"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "title-text"
+      }, " Step 3: Final comments")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "third-step",
         className: "step-form"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(formik__WEBPACK_IMPORTED_MODULE_1__["Formik"], {
