@@ -1,0 +1,111 @@
+.app {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 6rem;
+  width: 50vw;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  min-width: 415px;
+}
+
+.app .step-container {
+  background-color: #d3d3d3;
+  border-radius: 6px;
+  margin-bottom: 3px;
+}
+
+.app .step-container .step-title {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdd835), to(#ff8f00));
+  background-image: linear-gradient(#fdd835, #ff8f00);
+  border-radius: 6px;
+  color: #fff;
+  height: 3rem;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.app .step-container .step-form {
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.app .step-container .step-form form {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: wrap;
+  height: inherit;
+}
+
+.app .step-container .step-form form .form-field {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  margin: 0.5rem;
+}
+
+.app .step-container .step-form form .form-field .birth-field {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+
+.app .step-container .step-form form .form-field .birth-field input {
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.app .step-container .step-form form .form-field label {
+  font-weight: bold;
+}
+
+.app .step-container .step-form form .bottom-section {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  margin: 0.5rem;
+  margin-top: auto;
+}
+
+.app .step-container .step-form form .bottom-section button {
+  border-radius: 6px;
+  margin-left: 1rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a237e), to(#6200ea));
+  background-image: linear-gradient(#1a237e, #6200ea);
+  color: #fff;
+  width: 5rem;
+  text-align: center;
+  height: 1.5rem;
+}
+
+.app .step-container .step-form form input {
+  border-radius: 6px;
+  height: 1.5rem;
+}
+
+.app .step-container .step-form form select {
+  border-radius: 6px;
+  height: 1.5rem;
+}
+
+.app .step-container .step-form:target {
+  height: 10rem;
+}
+
+.app .step-form:target {
+  height: 10rem;
+}
+

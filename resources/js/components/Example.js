@@ -95,7 +95,7 @@ class Example extends React.PureComponent {
     );
   };
 
-  renderSecondStep = () => {
+  renderStepTwo = () => {
     return (
       <div className="step-container">
         <div className="step-title">Step 2: More comments</div>
@@ -183,7 +183,7 @@ class Example extends React.PureComponent {
     );
   };
 
-  renderThirdStep = () => {
+  renderStepThree = () => {
     return (
       <div className="step-container">
         <div className="step-title">Step 3: Final comments</div>
@@ -247,8 +247,8 @@ class Example extends React.PureComponent {
     return (
       <div className="app">
         {this.renderStepOne()}
-        {this.renderSecondStep()}
-        {this.renderThirdStep()}
+        {this.renderStepTwo()}
+        {this.renderStepThree()}
       </div>
     );
   }

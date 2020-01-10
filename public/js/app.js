@@ -1935,7 +1935,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".app {\n  background-color: #fff;\n  margin: auto;\n  margin-top: 6rem;\n  width: 50vw;\n  border: 3px solid #fff;\n  border-radius: 6px;\n  min-width: 415px;\n}\n.app .step-container {\n  background-color: #d3d3d3;\n  border-radius: 6px;\n  margin-bottom: 3px;\n}\n.app .step-container .step-title {\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdd835), to(#ff8f00));\n  background-image: linear-gradient(#fdd835, #ff8f00);\n  border-radius: 6px;\n  color: #fff;\n  height: 3rem;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n.app .step-container .step-form {\n  overflow: hidden;\n  height: 0;\n  -webkit-transition: all 0.5s ease-in-out;\n  transition: all 0.5s ease-in-out;\n}\n.app .step-container .step-form form {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  flex-wrap: wrap;\n  height: inherit;\n}\n.app .step-container .step-form form .form-field {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  margin: 0.5rem;\n}\n.app .step-container .step-form form .form-field .birth-field {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n}\n.app .step-container .step-form form .form-field .birth-field input {\n  width: 2rem;\n  margin-right: 0.5rem;\n}\n.app .step-container .step-form form .form-field label {\n  font-weight: bold;\n}\n.app .step-container .step-form form .bottom-section {\n  width: 100%;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  -webkit-box-pack: end;\n          justify-content: flex-end;\n  margin: 0.5rem;\n  margin-top: auto;\n}\n.app .step-container .step-form form .bottom-section button {\n  border-radius: 6px;\n  margin-left: 1rem;\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a237e), to(#6200ea));\n  background-image: linear-gradient(#1a237e, #6200ea);\n  color: #fff;\n  width: 5rem;\n  text-align: center;\n  height: 1.5rem;\n}\n.app .step-container .step-form form input {\n  border-radius: 6px;\n  height: 1.5rem;\n}\n.app .step-container .step-form form select {\n  border-radius: 6px;\n  height: 1.5rem;\n}\n.app .step-container .step-form:target {\n  height: 10rem;\n}\n.app .step-form:target {\n  height: 10rem;\n}", ""]);
 
 // exports
 
@@ -60493,7 +60493,7 @@ function (_React$PureComponent) {
       })));
     });
 
-    _defineProperty(_assertThisInitialized(_this), "renderSecondStep", function () {
+    _defineProperty(_assertThisInitialized(_this), "renderStepTwo", function () {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "step-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -60577,7 +60577,7 @@ function (_React$PureComponent) {
       })));
     });
 
-    _defineProperty(_assertThisInitialized(_this), "renderThirdStep", function () {
+    _defineProperty(_assertThisInitialized(_this), "renderStepThree", function () {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "step-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -60638,7 +60638,7 @@ function (_React$PureComponent) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "app"
-      }, this.renderStepOne(), this.renderSecondStep(), this.renderThirdStep());
+      }, this.renderStepOne(), this.renderStepTwo(), this.renderStepThree());
     }
   }]);
 
